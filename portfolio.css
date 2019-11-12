@@ -11,9 +11,11 @@ height: auto;
 h1{
 font-size: 70px;
 }
-h2{
-  font-size: 55px;
+.portfolio_title h2{
+    font-size: 45px;
+
 }
+
 .logo img{
 width: 230px;
 
