@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="portfolio.css">
+ <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building my portfolio blog - Aleena Aqeel - web developer</title>
+<meta name="keywords" content="portfolio,CSS grid,flexbox">
+<meta name="description" content="How Aleena Aqeel created her portfolio">
+<style> 
+@media screen and (max-width:600px) {
+.logo img{
+width: 150px;
+}
+.navbar ul{
+display: flex;
+justify-content:space-evenly
+}
+.navbar ul li a{
+font-size: 14px;
+}
+h1{
+  font-size: 36px ;
+}
+h2{
+  font-size: 20px ;
+}
+.blog_content{
+width: 65%;
+}
+.blog_info{
+  font-size: 15px
+}
+.img_explanation
+{
+font-size:9px;
+text-align: justify;
+}}
+
+
+</style>
+</head>
+<body>
+  
+<header>
+    <div class="navbar">
+      <div class="logo">
+      
+
+     
+              <a href="homepage.html"><img src="images/logo.png" alt="blue and orange aleena aqeel logo"></a>
+        
+    </div>
+        <ul>
+            <li><a href="index.html">Homepage </a></li>
+            <li><a href="portfolio.html">About me </a></li>
+            <li><a href="cv.html">My CV </a></li>
+            <li><a href="contact.php">Contact</a></li>
+       </ul>
+
+
+
+</div>
+
+              </header>
+              <main>
+                            
+                            
+                              
+                      <div class="blog_content">
+                          <div class="center">   
+                      <h1>Building my portfolio</h1>
+                      <b> Nov 2nd, 2019</b>
+                      <div class="blog_img">
+                          <img src="images/flexboxvsgrid.jpg" alt="image with green flexbox layout and red css grid layout ">
+
+                      </div>
+<div class="img_explanation">
+
+    <p>CSS grid is more flexible to use especially when information needs to be divided up into sections, unlike flexbox it's limited to where it can move.</p>
+
+                     </div>
+                      </div>
+                 
+<h2>My research </h2>          
+<p>What is a professional website portfolio and what does it include? To answer this question, I researched the internet and according to the University of California Berkeley “A professional portfolio, in either electronic or hard-copy format, showcases your skills, experiences and accomplishments to a potential employer. It can include pieces from your professional work, education and training, volunteer experience and personal interests” The University of California Berkeley, no date). So, this answered what I needed to include in my website portfolio. However, this is not enough to create a professional portfolio, therefore, I carried out further research to understand the different portfolios available online. The purpose of my portfolio is to show my work and my skills by building my website portfolio. A similarity I found in many of the portfolios I looked at was, the portfolio displayed the individual's personality, for example, Robby Leonardi has laid his portfolio out like a videogame that users can play but at the same time the portfolio displays information. This suggests he enjoys videogames. Another example is Sean Halpin's portfolio which displays his creative side because he uses animation and lots of colour on his website, but the website also displays his individuals’ skills. Another similarity is many websites include the ‘contact’ page this page allows future employees or users of the website to get in contact with the portfolio creator. I ensured on my website portfolio I included a ‘contact’ page. First, I created it as an HTML page however the information was not being stored or sent anywhere. I wanted to make use of the information gathered in the contact form, so I recreated the page using PHP. This has now allowed me to link my  email address to the contact form, and now every time a user fills in the contact form I receive an email on my email address to tell me a user has filled in the form and I can see their message and reply. Thus, I can communicate with users who will view my portfolio.</p>
+
+<h2>CSS grid vs Flexbox</h2>
+ <p> Whilst carrying out my research I realised many of the portfolios use CSS grid for layout of their webpages. Initially, when creating my CV page, I wanted to use flexbox however I ended up using CSS grid to create my CV. The difference between grid layout and flexbox is CSS grid is for 2-dimensional layouts and when you want to design the webpage using a mixture of rows and columns whilst flexbox is for 1-dimensional layout and anything that needs to be aligned responsively. (Andrew, no date).The CV is split into sections and CSS grid makes it much easier to lay the sections out. CSS grid layout is useful because it allows you to split the page into sections unlike flexbox and each box can be a different size. You can add rows and columns onto a grid so you can design and build your website more easily because you can separate the order of elements. You do not have to compromise on the structure of your documents, and you don’t have to worry about text overlapping when you change the text font size because the columns and rows can be modified. Nevertheless, CSS grid is supported by most browsers around the world.</p>
+
+<p>To create the CV, I used 7 CSS grid boxes and it allowed me to split the information into 2 sections one side has quick points I want the user to read such as skills, languages that I speak and my contact details. Whilst the other side contains more important detail such as my work experience and my education. I have used fraction (Fr) units in my code when deciding the size of the columns because Fr units calculate the size of the column/row based on the amount of available space. It will do this by deducting the grid-gap from the total width and then calculate the size of the column/row. On the other hand, percentages can be used to determine the size of the column/row but unlike Fr units it doesn’t take into account the grid gaps Percentages can also be used however the width of the column is calculated based in the width of the container and it doesn’t take into account the grid gaps so the content will be pushed outside the grid gaps(Rahangdale, 2019).</p>
+
+<div class="blog_info">
+   <p>Want to read <a href="industry_blog.html">Women in the digital industry</a> blog or <a href="optimization_blog.html">Performance and optimization</a> blog</p>
+     </div>
+    
+
+<hr>       
+ <div class ="bibliography">
+   <h4>Bibliography</h4>
+
+<p>Student Affairs and Careers Services. (no date) Building a professional portfolio. [Leaflet] Suite 110: University of California Berkeley. Date viewed 8 November 2019</p>
+
+<p>Andrew, R. (no date.). What is CSS Grid Layout?. Gridbyexample.com. [Online] [Accessed 30 October 2019] https://gridbyexample.com/what/</p>
+
+<p>Rahangdale, T. (2017). CSS Grids — All about fr units. Medium. [Online] [Accessed 8 November 2019]. https://medium.com/@r_tripti/css-grids-all-about-fr-units-36b7b5fea661</p>
+
+
+
+    </div>                      
+     </div>        
+            
+                    
+      
+              </main>
+              <footer>
+                <div class="footer">
+<p>BY:ALEENA AQEEL<p>
+</div>
+              </footer>
+          </body>
+          </html>
+
+
+
+
+
+ 

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="portfolio.css">
+ <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio - Aleena Aqeel - web developer</title>
+<meta name="language" content="en">
+<meta name="keywords" content="Aleena Aqeel,HTML,CSS,PHP,SQL,Javascript">
+<meta name="description" content="Want to know more about me and my work? Why not check my portfolio page.">
+<style>
+@media screen and (max-width:725px) {
+  .mypic{
+    width: 50%;
+  }
+  .portfolio_img{
+transition: none;
+}
+.portfolio_img:hover{
+  transform: none;
+ }
+ .blog_info a:link, a:visited{
+text-decoration:underline;
+}}
+
+@media screen and (max-width:550px) {
+.logo img{
+width: 100px;
+}
+.navbar ul{
+display: flex; 
+justify-content: space-between; 
+}
+h1{
+font-size: 38px;
+}
+.navbar ul li a{
+font-size: 16px;
+}
+.mypic{
+  width: 100%;
+}
+.aboutme_content{
+ text-align: justify;
+ width: 90%;
+}
+.blog_info{
+  width: 90%;
+}
+.portfolio{
+display: block;
+width: 70%;
+}
+.portfolio_img{
+transition: none;
+}
+.portfolio_img:hover{
+  transform: none;
+ }
+.jakal_info{
+display: none;
+}
+.php_info{
+display: none;
+width: 30%;
+}
+.shirt_form_info{
+  display: none;
+  width: 30%;
+}
+.portfolio_info{
+  display: none;
+  width: 30%;
+}
+}
+
+@media screen and (max-width:500px) {
+.logo img{
+width: 150px;
+}
+.navbar ul{
+display: flex;
+justify-content:space-evenly
+}
+h1{
+font-size: 34px;
+}
+h2{
+  font-size: 35px;
+}
+.navbar ul li a{
+font-size: 14px;
+}
+.aboutme_content
+{
+  font-size: 18px;
+}
+.socialmedia{
+  font-size: 18px;
+}}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+      <div class="navbar">
+        <div class="logo">
+        
+
+       
+                <a href="homepage.html"><img src="images/logo.png" alt="blue and orange aleena aqeel logo"></a>
+          
+      </div>
+          <ul>
+              <li><a href="index.html">Homepage </a></li>
+              <li><a href="portfolio.html">About me </a></li>
+              <li><a href="cv.html">My CV </a></li>
+              <li><a href="contact.php">Contact</a></li>
+         </ul>
+
+
+
+</div>
+
+                </header>
+                <main>
+   
+                    <div class="mypic">
+                    <img src="images/mypic.jpg" alt="Image of aleena aqeel in a pink jacket">
+                    </div>
+            
+                    <div class="aboutme_content">
+                      
+ <h1>Hi, I'm Aleena Aqeel</h1>
+ <div class="blog_links">
+                    <p>I’m a young web developer in  my final year of university at Manchester Metropolitan. I will soon be graduating in BSC Web Development in 2020. I aspire to become a successful front-end web developer. Creating websites allows me to explore my creative side I enjoy the process of designing and creating websites. I have learnt to code in HTML, CSS, JavaScript, PHP and SQL. If you would like to know a bit more about me my why not read my blogs. Some of my most popular blogs are <a href="industry_blog.html"><strong>Women in the digital industry</strong></a>,
+                    <a href="portfolio_blog.html"><strong>Building my portfolio</strong></a> and
+                     <a href="optimization_blog.html"><strong>Performance and optimization</strong></a>.</p>
+
+                    </div>                
+
+
+ </div>
+               
+                    
+ <div class="socialmedia">
+                     
+<p>Follow me on social media</p>
+                           
+<a href="https://www.linkedin.com/in/aleena-aqeel-628950175" class="socialmedia_links">LinkendIn</a>
+<a href="https://github.com/aleena-a?tab=repositories" class="socialmedia_links">GitHub</a>
+
+ </div>
+
+ <div class="portfolio">
+<div class="portfolio_title">
+<h2>My work</h2>
+</div>
+                  
+ <div class=" jakal_project">
+<img class="portfolio_img" src="images/jakal_project.jpg" alt="Image of jakal project homepage with street art background">
+<div class="jakal_info">
+<p>This project was part of a university group project and the aim was to create a website on activities for new students to do in Manchester. My group choose exploring street art as the activity and our website is about street art in Manchester. Since this was a group project, I created the ‘map’ page and it was created using HTML and CSS. </p>
+</div>
+ </div>
+
+
+ <div class="php_project">
+ <img class="portfolio_img" src="images/isongs_project.jpg"  alt="Image of phone with content on it">
+ <div class="php_info">
+ <p>In this project I had to create an app on a mobile device so users could vote for their favourite pop star. This app was created with the help of code studio using PHP. Once the user has selected their favourite pop star, they can press the update chart button and the chart will add the users vote and display a pie chart with the results. </p>
+</div>
+ </div>
+
+<div class="shirt_order_form">
+<img class="portfolio_img" src="images/shirt_order_form.jpg" alt="Image of a tie and shirts order form">
+<div class="shirt_form_info">
+<p>This is an order form which allows users to order shirts and ties. This form was created using JavaScript. Users have the opportunity to select their customer status and get discount e.g. registered customers save 10% but trade customers save 20%. There is an opportunity to select delivery options e.g. delivery within 7 days is £2 but next day delivery is £5. </p>
+</div>  
+</div>                                             
+            
+
+<div class="my_portfolio">
+<img class="portfolio_img" src="images/aleena_portfolio.jpg" alt="Image of homepage of my portfolio">
+<div class="portfolio_info">
+<p>My portfolio is the most recent project I have worked on. This portfolio gives me an oppertunity to show my coding skills and for people to know a little bit about me and my work. The pages were created mostly using HTML and CSS however, the contact page was created using PHP because PHP can be used for logical operations e.g. when a user fills in the contact form, I will get an email on my email address.</p>
+</div>
+</div>
+                           
+    
+                                 
+                
+         </div>
+         </main>
+         <footer>
+    <div class="footer">
+      <p>BY:ALEENA AQEEL<p>
+      </div>
+
+                      </footer>
+                  </body>
+                  </html>
+                      
+                                   
+              
+                        
